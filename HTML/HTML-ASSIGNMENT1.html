@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 95%;
+            margin: 0 auto;
+            background: url(https://images.hdqwalls.com/wallpapers/bthumb/indomitable-forces-4k-oq.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+        }
+        details{
+            /* width: 100%; */
+            margin: 25px 0px;
+            padding: 10px 25px;
+            background-color: aliceblue;
+            border: 1px solid skyblue;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        details p{
+            margin-top: 10px;
+        }
+        details summary{
+            margin: 5px 0px;
+            font-size: 22px;
+            word-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+    <details>
+        <summary>Define the terms: Website</summary>
+         <p>a group of World Wide Web pages usually containing hyperlinks to each other and made available online by an individual, company, educational institution, government, or organization.</p>
+    </details>
+    <details>
+        <summary>
+            Define the terms:Webpage
+        </summary>
+        <p> A web page is a document written in hypertext (also known as HTML) that you can see online, using a web browser. Most web pages include text, photos or videos, and links to other web pages. A group of many web pages managed by one person or company is a website.
+        </p>
+    </details>
+    <details>
+        <summary> Define the terms:Web browser</summary>
+        <p> A software application used to access information on the World Wide Web is called a Web Browser. When a user requests some information, the web browser fetches the data from a web server and then displays the webpage on the user's screen.</p>
+    </details>
+    <details>
+        <summary>Define the terms:Web Server</summary>
+        <p> A web server is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other protocols to respond to client requests made over the World Wide Web. The main job of a web server is to display website content through storing, processing and delivering webpages to users.</p>
+    </details>
+    <details>
+        <summary>Define the terms:HTML</summary>
+        <p>HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured. This markup tells a web browser how to display text, images and other forms of multimedia on a webpage.</p>
+    </details>
+    <details>
+        <summary>Define the terms:CSS</summary>
+        <p>CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files</p>
+    </details>
+    <details>
+        <summary>Create a webpage to show “This is my first HTML page”</summary>
+        <p>
+            <h1>This is my first HTML page</h1>
+        </p>
+    </details>
+    <details>
+        <summary>Display top 10 IT companies list in html webpage</summary>
+        <ol>
+            <li>Microsoft</li>
+            <li>SAP</li>
+            <li>Oracle</li>
+            <li>IBM</li>
+            <li>Apple</li>
+            <li>Google</li>
+            <li>Cognizant</li>
+            <li>Accenture</li>
+            <li>Amazon</li>
+            <li>Nvidia</li>
+        </ol>
+    </details>
+    <details>
+        <summary> Create a dropdown list </summary>
+        <p>
+            <form action="">
+                <label for="cars">Choose Your car:</label>
+                <select name="cars" id="cars">
+                    <option value="Maruti Suzuki">Maruti Suzuki</option>
+                    <option value="Volvo">Volvo</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                </select>
+            </form>
+        </p>
+    </details>
+    <details>
+        <summary> Create a Table Of college Management system using row span & col span.</summary>
+        <p>
+            <table border="1" cellspacing="0" cellpadding="8" width="600">
+                <tr>
+                    <th rowspan="2">Days</th>
+                    <th colspan="6">Time</th>
+                </tr>
+                <tr>
+                    <td>8:00</td>
+                    <td>9:00</td>
+                    <td>10:00</td>
+                    <td width="65">11:00</td>
+                    <td>11:30</td>
+                    <td>12:30</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Course 1</td>
+                    <td>Course 2</td>
+                    <td>Course 3</td>
+                    <td rowspan="5" align="center" >B <br>R <br>E <br>A <br>K</td>
+                    <td>Course 5</td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td colspan="2"></td>
+                    <td>Course 2</td>
+                    <td>Course 4</td>
+                    <td>Course 1</td>
+                </tr>
+        
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Course 3</td>
+                    <td colspan="2"></td>
+                    <td>Course 2</td>
+                    <td></td>
+                </tr>
+        
+                <tr>
+                    <td>Thursday</td>
+                    <td rowspan="2">Course 4</td>
+                    <td>Course 2</td>
+                    <td>Course 3</td>
+                    <td colspan="2" rowspan="2" align="center">Thesis</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td></td>
+                    <td>Course 1</td>
+        
+                </tr>
+            </table>
+        </p>
+    </details>
+    <details>
+        <summary>European-Roulette Table</summary>
+        <p>
+            <table border="1"  cellspacing="0" cellpadding="20" bgcolor="green">
+                <tr align="center">
+                    <th rowspan="5">0</th>
+                    <th bgcolor="red">3</th>
+                    <th bgcolor="black">6</th>
+                    <th bgcolor="red">9</th>
+                    <th width="50" bgcolor="red">12</th>
+                    <th bgcolor="black">15</th>
+                    <th bgcolor="red">18</th>
+                    <th bgcolor="red">21</th>
+                    <th bgcolor="black">24</th>
+                    <th bgcolor="red">27</th>
+                    <th bgcolor="red">30</th>
+                    <th bgcolor="black">33</th>
+                    <th bgcolor="red">36</th>
+                    <th>2 to 1</th>
+                </tr>
+                <tr align="center">
+                    <th bgcolor="black">2</th>
+                    <th bgcolor="red">5</th>
+                    <th bgcolor="black">8</th>
+                    <th bgcolor="black">11</th>
+                    <th bgcolor="red">14</th>
+                    <th bgcolor="black">17</th>
+                    <th bgcolor="black">20</th>
+                    <th bgcolor="red">23</th>
+                    <th bgcolor="black">26</th>
+                    <th bgcolor="black">29</th>
+                    <th bgcolor="red">32</th>
+                    <th bgcolor="black">35</th>
+                    <th>2 to 1</th>
+                </tr>
+                <tr align="center">
+                    <th bgcolor="red">1</th>
+                    <th bgcolor="black">4</th>
+                    <th bgcolor="red">7</th>
+                    <th bgcolor="black">10</th>
+                    <th bgcolor="black">13</th>
+                    <th bgcolor="red">16</th>
+                    <th bgcolor="red">19</th>
+                    <th bgcolor="black">22</th>
+                    <th bgcolor="red">25</th>
+                    <th bgcolor="black">28</th>
+                    <th bgcolor="black">31</th>
+                    <th bgcolor="red">34</th>
+                    <th>2 to 1</th>
+                </tr>
+                <tr align="center">
+                    <th colspan="4">1st 12</th>
+                    <th colspan="4">2nd 12</th>
+                    <th colspan="4">3rd 12</th>
+                    <th rowspan="2"></th>
+                </tr>
+                <tr align="center">
+                    <th colspan="2">1 to 18</th>
+                    <th colspan="2">Even</th>
+                    <th colspan="2" bgcolor="red"></th>
+                    <th colspan="2" bgcolor="black"></th>
+                    <th colspan="2">Odd</th>
+                    <th colspan="2">19 to 36</th>
+                </tr>
+            </table>
+        </p>
+    </details>
+    <details>
+        <summary>Create Registration form using HTML, CSS </summary>
+        <p>
+            <table cellpadding="10">
+                <tr>
+                <th bgcolor="blue" colspan="2"><h2>Make HTML Form</h2></th>
+                </tr>
+                <tr>
+                    <td>Surname <br> <input type="text" placeholder="Please Enter Youur Surname"></td>
+                    <td>Name <br> <input type="text" placeholder="Please Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Email <br> <input type="email"placeholder="Please Enter Your Email"></td>
+                    <td>Contact Us <br> <input type="text" placeholder="Please Enter Your Contact No"></td>
+                </tr>
+                <tr>
+                    <td>Select Your Gender <br>
+                    <input type="radio" name="gender" id="ml">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender" id="fl">
+                    <label for="">Female</label>
+                    </td>
+                    <td>Select Your Hobbies <br>
+                    <input type="checkbox">
+                    <label for="">Music</label>
+                    <input type="checkbox">
+                    <label for="">Cricket</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea name="" id="" cols="60" rows="5" placeholder="Please Enter Your Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><select>
+                        <option value="Class 1">Class 1</option>
+                        <option value="Class 2">Class 2</option>
+                        <option value="Class 3">Class 3</option>
+                        <option value="Class 4">Class 4</option>
+                    </select></td>
+                    <td colspan="2" align="right">
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+                </table>
+        </p>
+    </details>
+    <details>
+        <summary> In how many ways can a CSS be integrated as a web page? </summary>
+        <p>
+            <h2>CSS can be added to HTML documents in 3 ways:</h2>
+            <ul type="disk">
+                <li>Inline - by using the style attribute inside HTML elements.</li>
+                <li>Internal - by using a style element in the Head section</li>
+                <li>External - by using a <link> element to link to an external CSS file.</li>
+            </ul>
+        </p>
+    </details>
+</body>
+</html>
